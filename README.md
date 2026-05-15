@@ -1,16 +1,102 @@
-# React + Vite
+# 🌞 Solar Energy Dashboard & Simulator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern React-based Solar Energy Analytics Platform that visualizes weather data, simulates photovoltaic (PV) systems, and integrates real-world APIs like **Open-Meteo** and **NREL PVWatts**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+# 🚀 Live Features
 
-## React Compiler
+## 📊 Dashboard
+- Real-time solar energy forecast  
+- Weather-based production estimation  
+- Daily energy insights  
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 📈 Analytics Page
+- Interactive charts (Recharts)  
+- Solar radiation vs production comparison  
+- Performance trends  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🗺 Map Visualization
+- Solar radiation heatmap  
+- Geographic energy potential visualization  
+- Leaflet-based interactive map  
+
+---
+
+## ☀️ PV Simulator (NREL API)
+- Input system parameters:
+  - Tilt angle  
+  - Azimuth direction  
+  - Number of panels  
+  - Panel wattage  
+- Real NREL PVWatts API integration  
+- Accurate energy output estimation (daily & yearly)  
+
+---
+
+# 🧠 Technologies Used
+
+- React.js (Vite)  
+- React Router DOM  
+- Axios  
+- Recharts  
+- Leaflet.js  
+- Leaflet Heatmap  
+- Lucide Icons  
+- Tailwind CSS  
+- Open-Meteo API  
+- NREL PVWatts API  
+
+---
+
+# 🌦 APIs Used
+
+## 🌍 Open-Meteo API
+Provides:
+- Temperature (min/max)  
+- Cloud coverage  
+- Solar radiation  
+
+🔗 https://open-meteo.com/
+
+---
+
+## ☀️ NREL PVWatts API
+Used for:
+- Solar energy simulation  
+- System performance estimation  
+- Real-world PV calculations  
+
+🔗 https://developer.nrel.gov/docs/solar/pvwatts/
+
+---
+
+# 📷 Project Preview
+
+> Add screenshots here
+
+- Dashboard view  
+- Forecast page  
+- Simulator page  
+- Map heatmap  
+
+---
+
+# ⚙️ Installation & Setup
+
+```bash
+# Clone repo
+git clone https://github.com/YOUR_USERNAME/Solar-Energy-API.git
+
+# Go to project
+cd Solar-Energy-API
+
+# Install dependencies
+npm install
+
+# Run project
+npm run dev
